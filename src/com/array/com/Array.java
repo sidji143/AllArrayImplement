@@ -3,8 +3,8 @@ import java.util.*;
 public class Array {
 
 	public static void main(String[] args) {
-			Scanner sc = new Scanner(System.in);
 			System.out.println("Enter the size of the Array :");
+			Scanner sc = new Scanner(System.in);
 			int n = sc.nextInt();
 			long arr[] = new long [n];
 			System.out.print("Enter the Elements in the Array :");
